@@ -28,4 +28,20 @@ describe("math", () => {
       });
     });
   });
+
+  describe(".divi", () => {
+    describe("when divides a range of numbers", () => {
+      it('returns the result correctly', () => {
+        expect(math.divi(100, 2, 5, 2.5)).toEqual(4);
+      });
+    });
+
+    describe("when divides by 0", () => {
+      it('throws an error', () => {
+        expect(() => {
+          math.divi(1, 2, 3, 0, 4, 5);
+        }).toThrowError();
+      });
+    });
+  });
 });
