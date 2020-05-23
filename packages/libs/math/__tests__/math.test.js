@@ -14,4 +14,18 @@ describe("math", () => {
       expect(math.sub(0, 1, 2, 3, 4, 5)).toEqual(-15);
     });
   });
+
+  describe(".multi", () => {
+    describe("when multiply a range of numbers", () => {
+      it('returns the result correctly', () => {
+        expect(math.multi(1, 2, 3, 4, 5)).toEqual(120);
+      });
+    });
+
+    describe("when multiply by 0", () => {
+      it('returns 0', () => {
+        expect(math.multi(1, 2, 3, 0, 4, 5)).toEqual(0);
+      });
+    });
+  });
 });

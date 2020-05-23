@@ -16,6 +16,12 @@ const math = {
       0
     );
   },
+  multi(...numbers) {
+    return numbers.reduce(
+      (previousValue, currentValue) => previousValue * currentValue,
+      1
+    );
+  }
 };
 
 module.exports = math;
