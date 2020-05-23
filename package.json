@@ -1,0 +1,34 @@
+{
+  "name": "root",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "yarn lerna bootstrap",
+    "release": "yarn auto shipit",
+    "test": "yarn lerna exec yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaulobneto/auto-lerna-release.git"
+  },
+  "author": "João Paulo Barbosa <jpaulobneto@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaulobneto/auto-lerna-release/issues"
+  },
+  "homepage": "https://github.com/jpaulobneto/auto-lerna-release#readme",
+  "devDependencies": {
+    "auto": "^9.36.0",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "lerna": "^3.21.0",
+    "prettier": "^2.0.5"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": false
+  }
+}
