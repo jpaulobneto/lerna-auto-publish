@@ -10,6 +10,8 @@ function calc(operationName, ...numbers) {
     return math.sum(...numbers);
   case 'sub':
     return math.sub(...numbers);
+  case 'multi':
+    return math.multi(...numbers);
   default:
     console.log(`Ops! We are out of ${operationName}.`);
   }
