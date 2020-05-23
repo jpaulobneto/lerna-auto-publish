@@ -1,8 +1,5 @@
 {
   "name": "root",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
     "release": "yarn auto shipit",
@@ -36,6 +33,9 @@
       "conventional-commits",
       "released"
     ],
-    "onlyPublishWithReleaseLabel": false
+    "onlyPublishWithReleaseLabel": true,
+    "shipit": {
+      "onlyGraduateWithReleaseLabel": true
+    }
   }
 }
