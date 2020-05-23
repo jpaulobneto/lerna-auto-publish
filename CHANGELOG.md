@@ -1,5 +1,22 @@
 # (Sat May 23 2020)
 
+#### 🚀 Enhancement
+
+- `@jpaulobneto/math@0.2.0`
+  - feat: implement math.sub function [#8](https://github.com/jpaulobneto/lerna-auto-publish/pull/8) ([@jpaulobneto](https://github.com/jpaulobneto))
+
+#### 🏠 Internal
+
+- chore: update auto config [#7](https://github.com/jpaulobneto/lerna-auto-publish/pull/7) ([@jpaulobneto](https://github.com/jpaulobneto))
+
+#### Authors: 1
+
+- João Paulo ([@jpaulobneto](https://github.com/jpaulobneto))
+
+---
+
+# (Sat May 23 2020)
+
 #### 🐛 Bug Fix
 
 - chore: update auto dependency [#5](https://github.com/jpaulobneto/lerna-auto-publish/pull/5) ([@jpaulobneto](https://github.com/jpaulobneto))
