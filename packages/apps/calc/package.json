@@ -24,7 +24,7 @@
     "url": "https://github.com/jpaulobneto/auto-lerna-release/issues"
   },
   "devDependencies": {
-    "@jpaulobneto/math": "^0.2.0",
+    "@jpaulobneto/math": "^0.0.0",
     "jest": "^26.0.1"
   }
 }
