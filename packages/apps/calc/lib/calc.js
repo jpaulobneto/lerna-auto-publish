@@ -11,6 +11,6 @@ function calc(operationName, ...numbers) {
   case 'sub':
     return math.sub(...numbers);
   default:
-    console.log(`Sorry, we are out of ${operationName}.`);
+    console.log(`Ops! We are out of ${operationName}.`);
   }
 }
