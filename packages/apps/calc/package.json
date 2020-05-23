@@ -1,6 +1,6 @@
 {
   "name": "@jpaulobneto/calc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "> TODO: description",
   "author": "João Paulo Barbosa <jpaulobneto@gmail.com>",
   "homepage": "https://github.com/jpaulobneto/auto-lerna-release/tree/master/packages/apps/calc#readme",
@@ -24,7 +24,7 @@
     "url": "https://github.com/jpaulobneto/auto-lerna-release/issues"
   },
   "devDependencies": {
-    "@jpaulobneto/math": "^0.1.0",
+    "@jpaulobneto/math": "^0.1.1",
     "jest": "^26.0.1"
   }
 }
