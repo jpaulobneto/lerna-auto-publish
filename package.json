@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/jpaulobneto/auto-lerna-release#readme",
   "devDependencies": {
+    "@auto-it/all-contributors": "^9.36.1",
+    "@auto-it/conventional-commits": "^9.36.1",
+    "@auto-it/released": "^9.36.1",
+    "all-contributors-cli": "^6.14.2",
     "auto": "^9.36.1",
     "eslint": "^7.1.0",
     "jest": "^26.0.1",
@@ -27,7 +31,10 @@
   },
   "auto": {
     "plugins": [
-      "npm"
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
     ],
     "onlyPublishWithReleaseLabel": false
   }
